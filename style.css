@@ -1,0 +1,40 @@
+.main-header {
+    border: 2px solid red;
+    height: 80vh;
+    background-color: red;
+}
+
+.menu{
+    border: 1px solid green;
+    height: 30vh;
+    background-color: green;
+    
+}
+
+.icon{
+
+    width: 50px;
+    height: 50px;
+    background-color: aqua;
+
+    min-width: 50px;
+    min-height: 50px;
+
+    margin-top: 20px;
+    margin-left: 20px;
+
+    
+}
+
+.ilustration{
+    border: 2px solid yellow;
+    height: 100vh;
+    background-color: yellow;
+}
+
+
+.about-project{
+    border: 2px solid blue;
+    height: 100vh;
+    background-color: blue;
+}
