@@ -1,40 +1,163 @@
-.main-header {
-    border: 2px solid red;
-    height: 80vh;
-    background-color: red;
+*{
+    margin: 0;
 }
 
-.menu{
+header{
     border: 1px solid green;
     height: 30vh;
     background-color: green;
+    
+    
+}
+
+.main-header{
+    display: flex;
+    flex-direction: row;
+    
+    height: 20vh;
     
 }
 
 .icon{
 
-    width: 50px;
-    height: 50px;
+    width: 80px;
+    height: 80px;
     background-color: aqua;
 
-    min-width: 50px;
-    min-height: 50px;
+    
 
     margin-top: 20px;
-    margin-left: 20px;
+    margin-left: 80px;
 
     
 }
 
-.ilustration{
-    border: 2px solid yellow;
+.icon-image{
+    width: 80px;
+    height: 80px;
+
+    min-width: 50px;
+    min-height: 50px;
+}
+.title-project{
+    margin-top: 6vh;
+    
+    margin-left: 32vw;
+    
+
+
+
+}
+
+.second-header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.introduction{
+
     height: 100vh;
     background-color: yellow;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
 }
+
+
+.box-impact{
+    width: 60vw;
+    height: 60vh;
+    margin-top: 40px;
+
+    background-color: brown;
+    color: white;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-around
+
+
+    
+    
+}
+
+.text-impact{
+    width: 20vw;
+    height: 20vh;
+    border: 1px solid black;
+
+}
+
+.image-impact{
+    width: 20vw;
+    height: 20vh;
+    border: 1px solid black;
+
+}
+
+
+
+.ilustration-project{
+    
+    height: 100vh;
+    background-color: rgb(166, 166, 221);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.container-ilustration{
+
+    height: 80vh;
+    width: 80vw;
+    margin-top: 50px;
+
+    display: flex;
+    flex-direction: row;
+    
+    
+
+    background-color: beige;
+}
+
+.box-container{
+    
+    height: 20vh;
+    width: 20vw;
+    margin-top: 12em;
+    margin-left: 75px;
+
+    
+
+    background-color: rgb(199, 199, 130);
+
+}
+
+
+
+
+
+
+
+
+
 
 
 .about-project{
     border: 2px solid blue;
     height: 100vh;
     background-color: blue;
+}
+
+footer{ 
+    height: 30vh;
+
+    background-color: black;
 }
